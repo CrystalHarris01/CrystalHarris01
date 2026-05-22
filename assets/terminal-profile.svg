@@ -1,35 +1,35 @@
 <svg fill="none" viewBox="0 0 920 580" width="920" height="580" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml" style="background:#050807;border:1px solid #1f6f3a;border-radius:14px;box-shadow:0 0 24px rgba(0,255,102,.18);font-family:Consolas,Monaco,'Courier New',monospace;color:#39ff14;padding:24px;line-height:1.55;font-size:18px;">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="background:#05020a;border:1px solid #a855f7;border-radius:14px;box-shadow:0 0 28px rgba(168,85,247,.32),0 0 18px rgba(255,79,216,.18);font-family:Consolas,Monaco,'Courier New',monospace;color:#39ff14;padding:24px;line-height:1.55;font-size:18px;">
       <div style="display:flex;gap:8px;margin-bottom:20px;">
-        <span style="width:13px;height:13px;background:#ff5f56;border-radius:50%;display:inline-block;"></span>
-        <span style="width:13px;height:13px;background:#ffbd2e;border-radius:50%;display:inline-block;"></span>
-        <span style="width:13px;height:13px;background:#27c93f;border-radius:50%;display:inline-block;"></span>
+        <span style="width:13px;height:13px;background:#ff4fd8;border-radius:50%;display:inline-block;"></span>
+        <span style="width:13px;height:13px;background:#a855f7;border-radius:50%;display:inline-block;"></span>
+        <span style="width:13px;height:13px;background:#00ff66;border-radius:50%;display:inline-block;"></span>
       </div>
-      <div><span style="color:#00ff66;">crystal@cybersecurity</span><span style="color:#d4ffd4;">:~$ whoami</span></div>
-      <div style="color:#eaffea;margin-bottom:12px;">Crystal Harris</div>
+      <div><span style="color:#00ff66;">crystal@cybersecurity</span><span style="color:#c084fc;">:~$ whoami</span></div>
+      <div style="color:#ff4fd8;margin-bottom:12px;">Crystal Harris</div>
 
-      <div><span style="color:#00ff66;">crystal@cybersecurity</span><span style="color:#d4ffd4;">:~$ cat profile.txt</span></div>
-      <div style="color:#eaffea;margin-bottom:12px;">Cybersecurity | GRC | Cloud Security | Risk | Compliance | Hands-on Technical Labs</div>
+      <div><span style="color:#00ff66;">crystal@cybersecurity</span><span style="color:#c084fc;">:~$ cat profile.txt</span></div>
+      <div style="color:#f0abfc;margin-bottom:12px;">Cybersecurity | GRC | Cloud Security | Risk | Compliance | Hands-on Technical Labs</div>
 
-      <div><span style="color:#00ff66;">crystal@cybersecurity</span><span style="color:#d4ffd4;">:~$ ls certifications</span></div>
-      <div style="color:#eaffea;margin-bottom:12px;">CompTIA A+ · Security+ · Network+ · Linux Essentials · ITIL 4 · ISO/IEC 27001 Lead Auditor</div>
+      <div><span style="color:#00ff66;">crystal@cybersecurity</span><span style="color:#c084fc;">:~$ ls certifications</span></div>
+      <div style="color:#e9d5ff;margin-bottom:12px;">CompTIA A+ · Security+ · Network+ · Linux Essentials · ITIL 4 · ISO/IEC 27001 Lead Auditor</div>
 
-      <div><span style="color:#00ff66;">crystal@cybersecurity</span><span style="color:#d4ffd4;">:~$ cat focus-areas.txt</span></div>
-      <div style="color:#eaffea;margin-bottom:12px;">
+      <div><span style="color:#00ff66;">crystal@cybersecurity</span><span style="color:#c084fc;">:~$ cat focus-areas.txt</span></div>
+      <div style="color:#ffb3ec;margin-bottom:12px;">
         Governance, Risk, and Compliance<br/>
         Cloud Security · Vulnerability Management · Security Auditing<br/>
         NIST CSF · ISO/IEC 27001 · Linux Security · Network Security
       </div>
 
-      <div><span style="color:#00ff66;">crystal@cybersecurity</span><span style="color:#d4ffd4;">:~$ cat currently-working-on.txt</span></div>
-      <div style="color:#eaffea;margin-bottom:12px;">
+      <div><span style="color:#00ff66;">crystal@cybersecurity</span><span style="color:#c084fc;">:~$ cat currently-working-on.txt</span></div>
+      <div style="color:#d8b4fe;margin-bottom:12px;">
         CySA+ preparation · CCSP preparation · GRC portfolio projects<br/>
         Nmap vulnerability assessments · Wireshark traffic analysis · Cloud security baselines
       </div>
 
-      <div><span style="color:#00ff66;">crystal@cybersecurity</span><span style="color:#d4ffd4;">:~$ echo $MISSION</span></div>
-      <div style="color:#eaffea;">Building a cybersecurity career grounded in risk, compliance, cloud security, and practical validation.</div>
+      <div><span style="color:#00ff66;">crystal@cybersecurity</span><span style="color:#c084fc;">:~$ echo $MISSION</span></div>
+      <div style="color:#f5d0fe;">Building a cybersecurity career grounded in risk, compliance, cloud security, and practical validation.</div>
     </div>
   </foreignObject>
 </svg>
