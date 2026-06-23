@@ -112,4 +112,18 @@ def search_archive_texts(query: str) -> list[Result]:
     return out
 
 
-ALL_SOURCES = (search_gutenberg, search_open_library, search_archive_texts)
+def search_libby(query: str) -> list[Result]:
+    """Optional Libby/OverDrive lookup; no-op unless a consortium key is set.
+
+    Imported lazily so the core sources stay free of any optional config.
+    """
+    from .library import search_overdrive
+    return search_overdrive(query)
+
+
+ALL_SOURCES = (
+    search_gutenberg,
+    search_open_library,
+    search_archive_texts,
+    search_libby,
+)

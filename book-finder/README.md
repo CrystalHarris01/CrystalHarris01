@@ -42,6 +42,32 @@ Access labels:
 - **BORROW** — library lending copy; may have a waitlist.
 - **CHECK** — catalog record found; verify availability at a library.
 
+## Web UI
+
+A zero-dependency web front end (standard-library `http.server`) reuses the
+same aggregation logic:
+
+```bash
+python -m bookfinder.web            # http://127.0.0.1:8000
+python -m bookfinder.web --port 8099
+```
+
+It serves a search page plus a JSON API at `/api/search?q=...&free=1`.
+
+## Library availability (Libby / OverDrive) — optional
+
+OverDrive (the service behind Libby) has **no open public search API**; access
+is per-library through the "Thunder" API and needs your consortium key. So this
+adapter is opt-in and stays dormant until you set:
+
+```bash
+export BOOKFINDER_OVERDRIVE_LIBRARY=lapl   # your Libby library subdomain
+```
+
+With it set, borrowable results from your library appear alongside the others.
+Without it, everything else works unchanged. This just asks a library you
+belong to whether a title is lendable — exactly what the Libby app does.
+
 ## Where this won't help
 
 If a book is in copyright and not offered for lending, the lawful paths are a
@@ -54,7 +80,9 @@ tool will point you to those rather than around them.
 book-finder/
   bookfinder/
     cli.py        # argparse entry point + result formatting
+    web.py        # stdlib http.server web UI + JSON API
     sources.py    # one adapter per source
+    library.py    # optional Libby/OverDrive adapter (needs a key)
     http.py       # stdlib JSON-over-HTTP helper
     models.py     # Result / Access dataclasses
   tests/
